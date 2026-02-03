@@ -1,6 +1,6 @@
 function sum(...args) {
-    // Your implementation
-    return args.reduce((total, curr) => total + curr, 0);
+// Your implementation
+return args.reduce((total, curr) => total + curr, 0);
 }
 
 //For the purpose of user debugging.
