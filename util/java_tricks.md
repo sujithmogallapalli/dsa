@@ -10,3 +10,13 @@
 
 ## Arrays.copyOfRange()
 - Arrays.copyOfRange(arr, leftIndex, rightIndex);
+
+## getOrDefault(num, defaultValue)
+- Useful for hashing
+
+## Map iteration using stream
+- hashes.entrySet().stream()
+  .filter(ele -> ele.getValue() == 1)
+  .findFirst()
+  .get()
+  .getKey()
